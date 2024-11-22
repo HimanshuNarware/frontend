@@ -6,7 +6,7 @@ function App() {
     const [jsonInput, setJsonInput] = useState('');
     const [response, setResponse] = useState(null);
     const [error, setError] = useState(null);
-    // const [selectedOptions, setSelectedOptions] = useState([]);
+    const [selectedOptions, setSelectedOptions] = useState([]);
     const [filteredResponse, setFilteredResponse] = useState(null);
 
     // Update the document title with roll number
