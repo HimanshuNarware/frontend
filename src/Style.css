@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.submit-btn{
+ width: 200px;
+ padding: 12px 8px ;
+ color:  white;
+ font-weight: bold;
+ border-radius: 6px;
+ border: transparent;
+    background-color: hsl(237, 86%, 58%);
+}
+.input{
+    padding: 12px 8px;
+    border-radius: 4px;
+    border:.3px dotted black;
+
+}
