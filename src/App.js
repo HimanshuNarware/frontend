@@ -11,6 +11,7 @@ function App() {
 
     // Update the document title with roll number
     document.title = "ABCD123";
+    console.log(selectedOptions);
 
     const dropdownOptions = [
         { value: 'alphabets', label: 'Alphabets' },
